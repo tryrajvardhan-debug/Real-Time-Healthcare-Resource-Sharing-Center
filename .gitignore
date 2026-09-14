@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Django / local settings
+*.sqlite3
+backend/.env
+backend/celerybeat-schedule*
+
+# Node / frontend builds
+node_modules/
+dist/
+build/
+coverage/
+frontend/hospital/node_modules/
+frontend/hospital/dist/
+frontend/hospital/.vite/
+
+# Capacitor / Android build outputs
+frontend/hospital/android/
+backend/android/
+
+# Logs and caches
+*.log
+.cache/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
